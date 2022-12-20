@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "learn-korean-pos"
+version = "0.1.0"
+description = "Proof-of-concept Korean POS tagger notebook for Korean language learners"
+authors = ["Mary Chester-Kadwell <mchesterkadwell@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "learn_korean_pos"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^3.5.2"
+konlpy = "^0.6.0"
+pandas = "^1.5.2"
+naipy = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
